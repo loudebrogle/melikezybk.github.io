@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="converter.css">
+  <title>Uzunluk Dönüştürücü</title>
+</head>
+<body>
+  <div class="banner">
+    <div class="navbar">  
+        <div class="menu-item">  <a href="index.html">Anasayfa</a> </div> 
+        <div class="menu-item">  <a href="hakkımda.html">HAKKIMDA</a> </div> 
+        <div class="menu-item">   <a href="iletisim.html">İLETİŞİM </a> </div>
+        <div class="menu-item">   <a href="projeler.html">Projeler </a> </div>
+        <div class="menu-item">   <a href="converter.html">Converter </a> </div>
+        <div class="menu-item">   <a href="counter.html">Counter </a> </div>
+        
+
+         
+            
+       
+            
+    </div>
+</div>
+
+
+  <div id="converter">
+    <h2>Uzunluk Dönüştürücü</h2>
+    <label for="lengthInput">Uzunluk:</label>
+    <input type="number" id="lengthInput">
+    
+    <label for="fromUnit">Dönüştürme Birimi:</label>
+    <select id="fromUnit">
+      <option value="metre">Metre</option>
+      <option value="kilometre">Kilometre</option>
+      <option value="mil">Mil</option>
+    </select>
+    
+    <label for="toUnit">Dönüştürülen Birim:</label>
+    <select id="toUnit">
+      <option value="metre">Metre</option>
+      <option value="kilometre">Kilometre</option>
+      <option value="mil">Mil</option>
+    </select>
+    
+    <button onclick="convertLength()">Dönüştür</button>
+    
+    <p id="result">Sonuç: </p>
+  </div>
+
+  <script src="converter.js"></script>
+</body>
+</html>

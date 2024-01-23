@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+
+a {
+    color: rgb(235, 189, 157);
+    text-decoration: none;
+}
+
+#saat {
+    font-size: 100px;
+    color: rgb(100, 212, 15);
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image:url("img8.jpeg");
+    background-size: cover;
+    background-position: center;
+  
+    
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 32px  0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.menu-item{
+    padding-right: 30px;
+}
+.menu-item a{
+    font-weight: 800;
+}
+    
+    .content{
+       max-width:  100%;
+        position: absolute;
+        top: 30%;
+        color: chocolate;
+        padding-left: 50px;
+       
+        
+
+    }
+    .content h1 {
+        font-size: 5vw;
+        margin-block-start: auto;
+        
+
+    }
+    .content p {
+        margin: 20px auto;
+        font-size: 30px;
+    }
+    .content i {
+        font-size: 25px;
+        padding: 15px 0;
+        margin: 20px;
+        cursor: pointer;
+        
+        
+        
+    }
+    .content i:hover{
+        color: rgb(204, 193, 38);
+        transition: 2s;
+    }
+    .ikon{
+        font-size: 30px;
+       position: absolute;
+       right: 10px;
+       bottom: 10px;
+    
+    
+    }
+    /*iletisim bölümü özelllikleri başlangıç */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+        
+    body{
+        font-family:"poppins",sans-serif;
+        
+        
+
+
+      
+        
+      
+        
+        
+    }
+    .container{
+        width: 85%;
+        background:white;
+        border-radius: 6px;
+        padding:30px 30px 30px 30px;
+        box-shadow: 0 5px 10px rgb(0,0,0.2);
+        margin-top: 250px;
+        margin-left: 150px;
+        
+
+
+
+    }
+    .container .contentt .left-side {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        position: relative;
+
+    }
+
+    .contentt{
+        display: flex;
+    }
+    .contentt .left-side::before {
+        content:'';
+        position: absolute;
+        height: 70%;
+        width: 2px;
+        right: -15px;
+        top: 50%;
+        transform:translateY(-50%);
+
+    }
+    .contentt .left-side .details{
+        margin: 14px;
+        text-align: center;
+    }
+    .contentt .left-side .details i{
+        font-size: 30px;
+        color: blueviolet;
+        margin-bottom: 10px;
+    }
+    .contentt .left-side .details .topic {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contentt .left-side .details .text {
+        font-size: 14px;
+        color: red;
+    }
+    .contentt .right-side{
+        width: 75%;
+        margin-left: auto;
+    }
+    .right-side .topic-text {
+        font-size: 23px;
+        font-weight: 600;
+        color: rgb(255, 123, 0);
+    }
+    .right-side .input-box{
+        height: 50px;
+        width: 100%;
+        margin: 12px 0;
+    }
+    .input-box input,
+    .input-box textarea{
+        height: 100%;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background: #afb64f;
+        border-radius: 6px;
+        padding: 0 15px;
+        resize: none;
+    }
+    .message-box{
+        min-height: 110px;
+    }
+    .input-box textarea {
+        padding-top: 6px;
+    }
+    .right-side .button {
+        display: inline-block;
+        margin-top: 12px;
+    }
+    .button-input{
+        color: rgb(36, 37, 25);
+        font-size: 18px;
+        outline: none;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        background: rgb(167, 54, 54);
+        cursor: pointer;
+        transition: all 0.3 ease;
+
+        
+    }
+    .button input:hover {
+        background: yellowgreen;
+        
+    }
+    
+    .link{
+        margin-top:50px;
+        margin-left: 50px;
+        background-color: rgb(255, 238, 0);
+        height: 30px;
+        width: 100px;
+        
+    }
+    /* hakkımda */
+    
+       
+      
+      
+       
+        
+        
+    
+
+    .ana-bölüm{
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+    
+    .header-right {
+        display: flex;
+       max-width: 33%;
+        
+        background:white;
+        border-radius: 6px;
+        padding: 20px 20px 30px 20px;
+        margin-left:  35px;
+      /*  box-shadow: 0 10px 10px rgb(0,0,0.2);*/
+       
+    
+        
+
+
+    }
+    .header-right h1{
+        font-size: 20px;
+        
+        font-size: 2vw;
+    }
+    .paragraf p{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .link{
+        margin-top:50px;
+        margin-left: 50px;
+        background-color: rgb(229, 255, 0);
+        height: 30px;
+        width: 100px;
+        
+    }
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+
+    
+    
+
+
+    /*mesleki temel eğitim projeleri*/
+
+   
+
+    h1{
+        font-size: 60px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .wrapper{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .parent {
+        width: 37%;
+        margin: 80px;
+        height: 280px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        box-shadow: 0 4px 6px -1px rgb(0,0,0);
+        border-radius: 10px;
+
+    }
+
+    .child{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        transition: all 1.1s;
+    }
+
+    .bg-1{
+        background-image: url(derinlıik.jpg);
+    }
+
+    
+    
+    
+
+    .bg-3{
+        background-image: url(çift\ kaçış.jpg);
+    }
+
+    .bg-4{
+        background-image: url(küp.jpg);
+    }
+
+
+    .resim {
+        width: 33.33%;   /* Her bir resmin genişliği sayfanın 1/3'ü */
+        height: auto;    /* Genişlik oranını koru */
+        box-sizing: border-box; /* padding ve border'ı genişliğe dahil et */
+    }    
+    .rsm-container {
+        display: flex;
+        justify-content: space-around; /* Resimleri container içinde hizala */
+        align-items: center;           /* Dikey hizalamayı ortala */
+        height: 100vh;     
+    }
+
+
+
+
+
+
+
+    .parent:hover .child {
+        transform: scale(1.2);
+    }
+    
+    .link{
+        margin-top:50px;
+        margin-left: 50px;
+        background-color: rgb(229, 255, 0);
+        height: 30px;
+        width: 100px;
+        
+    }
+        
+
+    
+/*maket*/
+
+
+    .big-1{
+        background-image: url(hibrit.jpg);
+    }
+
+    
+    
+    
+
+    .big-3{
+        background-image: url(tarih.jpg);
+    }
+
+    .big-4{
+        background-image: url(derinlik.jpg);
+    }
+
+    /*temel sanat eğitimi*/
+    .biig-1{
+        background-image: url(doku.jpeg);
+    }
+
+    
+    
+    
+
+    .biig-3{
+        background-image: url(iç\ perspektif.jpg);
+    }
+
+    .biig-4{
+        background-image: url(d1.jpeg);
+    }
+
+    .link{
+        margin-top:50px;
+        margin-left: 50px;
+        background-color: rgb(229, 255, 0);
+        height: 30px;
+        width: 100px;
+        
+    }
+        
+
+
+
+ 
+ 
+ 
+        
+        
+        
+        
+    
+        
+    
+    
+
+    
+
+  
+
+    
+
+
+        
+    
+        
+
+
+
+    
+        
+    
+    
+
+    
+        
+    
+    
+    
+    
+    
+  
+    
+
+    
+
+
+        
+        
+        
+        
+    
+    
+
+    
+    
+
+    
+        
+        
+
+
+
+    
+
+    
+    
+    
+
+
+    
+
+        
+        
+    
+        
+    
+    
+        
+    
+    
+        
+    
+
+        
+        
+        
+        
+        
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+
+
+
+         
+
+
+    
+
+    
+    
+    
+

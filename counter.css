@@ -1,0 +1,57 @@
+#counter-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  #counter {
+    font-size: 2em;
+  }
+  
+  #increment-btn {
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+a {
+    color: rgb(235, 189, 157);
+    text-decoration: none;
+}
+
+#saat {
+    font-size: 100px;
+    color: #333;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.banner{
+    height: 50vh;
+    width: 100%;
+      background-size: cover;
+    background-position: center;
+  
+    
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 32px  0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.menu-item{
+    padding-right: 30px;
+}
+.menu-item a{
+    font-weight: 800;
+}
